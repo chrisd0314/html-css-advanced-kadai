@@ -86,11 +86,14 @@ body {
   display: none;
 }
 
+/* ハンバーガーメニュー */
 #menu-sp {
   float: right;
-   padding: 0;
+  padding: 0;
 }
 
+ /* スマホ用ナビゲーションの表示切替*/
+  /* 初期状態、レイアウトと非表示設定 */
 #nav-sp {
   background-color: #ce933e;
   position: absolute;
@@ -110,6 +113,7 @@ body {
   list-style: none;
 }
 
+/* 閉じるボタン（×） */
 #close {
   position: absolute;
   top: 20px;
@@ -120,7 +124,7 @@ body {
   margin: 80px 0px 30px 20px;
 }
 
-#nav-sp {
+#nav-sp a {
   display: block;
 }
 
@@ -141,17 +145,16 @@ body {
   color: #ffffff;
 }
 
-#nav-sp.menu {
+#nav-sp .menu {
   text-decoration: none;
   display: block;
   margin: 0 20px;
   height: 44px;
   font-size: 16px;
-  background-image: url(images/arrow.png);
+  background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
 }
-
 }
 
 
